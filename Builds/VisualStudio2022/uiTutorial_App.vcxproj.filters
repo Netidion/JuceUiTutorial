@@ -220,6 +220,15 @@
     <ClCompile Include="..\..\Source\MainComponent.cpp">
       <Filter>uiTutorial\Source</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\GrassComponent.cpp">
+      <Filter>uiTutorial\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\WallComponent.cpp">
+      <Filter>uiTutorial\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RoofComponent.cpp">
+      <Filter>uiTutorial\Source</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\..\..\JUCE\modules\juce_core\containers\juce_AbstractFifo.cpp">
       <Filter>JUCE Modules\juce_core\containers</Filter>
     </ClCompile>
@@ -1453,6 +1462,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Source\MainComponent.h">
+      <Filter>uiTutorial\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WallComponent.h">
+      <Filter>uiTutorial\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GrassComponent.h">
+      <Filter>uiTutorial\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RoofComponent.h">
       <Filter>uiTutorial\Source</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\JUCE\modules\juce_core\containers\juce_AbstractFifo.h">

@@ -8,6 +8,16 @@
       <FILE id="azlLyY" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
       <FILE id="X8PjTK" name="MainComponent.cpp" compile="1" resource="0"
             file="Source/MainComponent.cpp"/>
+      <FILE id="ONOMBn" name="WallComponent.h" compile="0" resource="0" file="Source/WallComponent.h"/>
+      <FILE id="bp2jlV" name="GrassComponent.cpp" compile="1" resource="0"
+            file="Source/GrassComponent.cpp"/>
+      <FILE id="F2gOZU" name="WallComponent.cpp" compile="1" resource="0"
+            file="Source/WallComponent.cpp"/>
+      <FILE id="H1qSLy" name="GrassComponent.h" compile="0" resource="0"
+            file="Source/GrassComponent.h"/>
+      <FILE id="JJQYsG" name="RoofComponent.h" compile="0" resource="0" file="Source/RoofComponent.h"/>
+      <FILE id="BHHB4J" name="RoofComponent.cpp" compile="1" resource="0"
+            file="Source/RoofComponent.cpp"/>
     </GROUP>
   </MAINGROUP>
   <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>

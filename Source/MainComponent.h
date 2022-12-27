@@ -1,6 +1,9 @@
 #pragma once
 
 #include <JuceHeader.h>
+#include "WallComponent.h"
+#include "GrassComponent.h"
+#include "RoofComponent.h"
 
 //==============================================================================
 /*
@@ -23,5 +26,9 @@ private:
     // Your private member variables go here...
 
 
-    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
+    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR(MainComponent)
+    WallComponent wall;
+    GrassComponent grass;
+    RoofComponent roof;
+
 };
