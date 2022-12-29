@@ -8,6 +8,8 @@ MainComponent::MainComponent()
     addAndMakeVisible(wall);
     addAndMakeVisible(grass);
     addAndMakeVisible(roof);
+    addAndMakeVisible(sun);
+    addAndMakeVisible(text);
 }
 
 MainComponent::~MainComponent()
@@ -25,4 +27,6 @@ void MainComponent::resized()
     wall.setBounds(getLocalBounds());
     grass.setBounds(getLocalBounds());
     roof.setBounds(getLocalBounds());
+    sun.setBounds(getLocalBounds());
+    text.setBounds(getLocalBounds());
 }

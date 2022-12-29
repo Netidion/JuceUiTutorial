@@ -226,6 +226,12 @@
     <ClCompile Include="..\..\Source\WallComponent.cpp">
       <Filter>uiTutorial\Source</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\SunComponent.cpp">
+      <Filter>uiTutorial\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TextComponent.cpp">
+      <Filter>uiTutorial\Source</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\RoofComponent.cpp">
       <Filter>uiTutorial\Source</Filter>
     </ClCompile>
@@ -1471,6 +1477,12 @@
       <Filter>uiTutorial\Source</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\RoofComponent.h">
+      <Filter>uiTutorial\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SunComponent.h">
+      <Filter>uiTutorial\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TextComponent.h">
       <Filter>uiTutorial\Source</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\JUCE\modules\juce_core\containers\juce_AbstractFifo.h">

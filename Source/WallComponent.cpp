@@ -27,7 +27,7 @@ WallComponent::~WallComponent()
 void WallComponent::paint (Graphics& g)
 {
     Rectangle<float>wall(200, 200, 200, 120);
-    g.fillCheckerBoard(wall, 20, 10, Colours::darkslategrey, Colours::lightgrey);
+    g.fillCheckerBoard(wall, 20, 10, Colours::saddlebrown, Colours::sandybrown);
     g.drawRect(wall);
 }
 

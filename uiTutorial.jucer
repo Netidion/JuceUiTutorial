@@ -16,6 +16,12 @@
       <FILE id="H1qSLy" name="GrassComponent.h" compile="0" resource="0"
             file="Source/GrassComponent.h"/>
       <FILE id="JJQYsG" name="RoofComponent.h" compile="0" resource="0" file="Source/RoofComponent.h"/>
+      <FILE id="LtdU3Y" name="SunComponent.cpp" compile="1" resource="0"
+            file="Source/SunComponent.cpp"/>
+      <FILE id="RMDSiv" name="SunComponent.h" compile="0" resource="0" file="Source/SunComponent.h"/>
+      <FILE id="dUjklD" name="TextComponent.cpp" compile="1" resource="0"
+            file="Source/TextComponent.cpp"/>
+      <FILE id="WIJ2dA" name="TextComponent.h" compile="0" resource="0" file="Source/TextComponent.h"/>
       <FILE id="BHHB4J" name="RoofComponent.cpp" compile="1" resource="0"
             file="Source/RoofComponent.cpp"/>
     </GROUP>

@@ -145,6 +145,8 @@
     <ClCompile Include="..\..\Source\MainComponent.cpp"/>
     <ClCompile Include="..\..\Source\GrassComponent.cpp"/>
     <ClCompile Include="..\..\Source\WallComponent.cpp"/>
+    <ClCompile Include="..\..\Source\SunComponent.cpp"/>
+    <ClCompile Include="..\..\Source\TextComponent.cpp"/>
     <ClCompile Include="..\..\Source\RoofComponent.cpp"/>
     <ClCompile Include="..\..\..\..\JUCE\modules\juce_core\containers\juce_AbstractFifo.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
@@ -1299,6 +1301,8 @@
     <ClInclude Include="..\..\Source\WallComponent.h"/>
     <ClInclude Include="..\..\Source\GrassComponent.h"/>
     <ClInclude Include="..\..\Source\RoofComponent.h"/>
+    <ClInclude Include="..\..\Source\SunComponent.h"/>
+    <ClInclude Include="..\..\Source\TextComponent.h"/>
     <ClInclude Include="..\..\..\..\JUCE\modules\juce_core\containers\juce_AbstractFifo.h"/>
     <ClInclude Include="..\..\..\..\JUCE\modules\juce_core\containers\juce_Array.h"/>
     <ClInclude Include="..\..\..\..\JUCE\modules\juce_core\containers\juce_ArrayAllocationBase.h"/>

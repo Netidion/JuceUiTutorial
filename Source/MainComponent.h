@@ -4,7 +4,8 @@
 #include "WallComponent.h"
 #include "GrassComponent.h"
 #include "RoofComponent.h"
-
+#include "SunComponent.h"
+#include "TextComponent.h"
 //==============================================================================
 /*
     This component lives inside our window, and this is where you should put all
@@ -30,5 +31,7 @@ private:
     WallComponent wall;
     GrassComponent grass;
     RoofComponent roof;
+    SunComponent sun;
+    TextComponent text;
 
 };

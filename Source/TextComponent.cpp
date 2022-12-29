@@ -1,43 +1,37 @@
 /*
   ==============================================================================
 
-    RoofComponent.cpp
-    Created: 27 Dec 2022 6:03:42pm
+    TextComponent.cpp
+    Created: 29 Dec 2022 12:39:40pm
     Author:  Neti
 
   ==============================================================================
 */
 
 #include <JuceHeader.h>
-#include "RoofComponent.h"
+#include "TextComponent.h"
 using namespace juce;
 
 //==============================================================================
-RoofComponent::RoofComponent()
+TextComponent::TextComponent()
 {
     // In your constructor, you should add any child components, and
     // initialise any special settings that your component needs.
 
 }
 
-RoofComponent::~RoofComponent()
+TextComponent::~TextComponent()
 {
 }
 
-void RoofComponent::paint (Graphics& g)
+void TextComponent::paint (Graphics& g)
 {
-    g.setColour(Colours::firebrick);
-    Path p;
-    p.startNewSubPath(200,200);
-    p.lineTo(400, 200);
-    p.lineTo(300, 140);
-    p.closeSubPath();
-
-    g.strokePath(p, PathStrokeType(2));
-    g.fillPath(p);
+    Font theFont("Calibri", "Bold", 20);
+    g.setFont(theFont);
+    g.drawText("Neti's Plug-in", 10, 10, 400, 60, Justification::topLeft);
 }
 
-void RoofComponent::resized()
+void TextComponent::resized()
 {
     // This method is where you should set the bounds of any child
     // components that your component contains..
